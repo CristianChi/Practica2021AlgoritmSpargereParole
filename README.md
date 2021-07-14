@@ -5,6 +5,8 @@ Acest algoritm a fost realizat in timpul practicii la Facultatea de Automatica, 
 
 Algoritm hash luat de pe http://www.zedwood.com/article/cpp-sha256-function
 
+Acest algoritm a fost creat cu scop educational.
+
 ---------------------------------------------------------------------------------------------------------------------
 
 # Practica2021AlgoritmSpargereParole
@@ -13,3 +15,5 @@ Algorithm for cracking passwords fo 5 numerical characters that uses hassing, sh
 This algorithm was made during the work practice at Facultatea de Automatica, Calculatoare si Electronica, Craiova, year 2021.
 
 Hash algorith taken from http://www.zedwood.com/article/cpp-sha256-function
+
+This algorithm was created with educational purpose.
