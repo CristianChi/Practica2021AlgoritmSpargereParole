@@ -5,7 +5,7 @@
 
 
 using namespace std;
-string crackHash(string pass);
+string crackHash(string const& pass);
 clock_t start_t, end_t;
 
 int main() {
@@ -18,11 +18,11 @@ int main() {
     crackHash(passhash);
 
     cout << endl;
-    cout << "The time it took to find possible passwords: " << (double)(end_t - start_t) / 1000 << " seconds" << endl << endl;
+    cout << "The time it took to find possible passwords: " << static_cast<double>(end_t - start_t) / CLOCKS_PER_SEC << " seconds" << endl << endl;
     return 0;
 }
 
-string crackHash(string pass) {
+string crackHash(string const& pass) {
     int digit[5], passwordLength = 1;
     start_t = clock();
 
